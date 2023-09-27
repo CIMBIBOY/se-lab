@@ -10,10 +10,22 @@
 	</properties>
 
 	<dependencies>
+		<dependencies>
+		<!-- Other dependencies -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.32</version> <!-- Adjust version as needed -->
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version> <!-- Adjust version as needed -->
+		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
-			<version>5.8.2</version>
+			<version>5.10.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -28,6 +40,8 @@
 			<version>0.8.7</version>
 			<scope>test</scope>
 		</dependency>
+</dependencies>
+
 	</dependencies>
 
 	<build>
