@@ -28,6 +28,15 @@
 			<version>0.8.7</version>
 			<scope>test</scope>
 		</dependency>
+		<dependencies>
+		<!-- Other dependencies -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version> <!-- Adjust version as needed -->
+		</dependency>
+</dependencies>
+
 	</dependencies>
 
 	<build>
