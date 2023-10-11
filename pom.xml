@@ -10,7 +10,6 @@
 	</properties>
 
 	<dependencies>
-		<dependencies>
 		<!-- Other dependencies -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
