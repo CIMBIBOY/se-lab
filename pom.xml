@@ -7,10 +7,11 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.organization>cimbiboy</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
-		<dependencies>
 		<!-- Other dependencies -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
